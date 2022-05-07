@@ -27,6 +27,7 @@
     "react/button-has-type": 0,
     "react/jsx-props-no-spreading": 0,
     "react/jsx-max-props-per-line": 0,
+    "react/function-component-definition": 0,
     "fp/no-unused-expression": 0,
     "fp/no-mutation": 0,
     "fp/no-let": 0,
