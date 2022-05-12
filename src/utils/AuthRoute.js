@@ -1,6 +1,6 @@
 import React from 'react'
 import { useProviderInfo } from 'mollectorgame-sdk'
-import { Route, Redirect } from 'react-router-dom'
+import { Redirect, Route } from 'react-router-dom'
 
 function AuthRoute({ component: Component, ...rest }) {
   const { account } = useProviderInfo()

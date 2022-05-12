@@ -1,18 +1,15 @@
-import styled from 'styled-components'
-import { Box, MainApp, Text } from 'mollectorgame-sdk'
-import Layout from 'components/Layout'
+import { Text } from 'mollectorgame-sdk'
 
-const Wrapper = styled(Box)`
-  position: relative;
-`
+import Layout from '~/components/Layout'
+import useOpenApp from '~/hooks/useOpenApp'
 
 const Home = () => {
+  const { onOpenApp } = useOpenApp()
+
   return (
     <Layout>
       <Text mb="10px">Home Page</Text>
-      <Wrapper>
-        <MainApp />
-      </Wrapper>
+      <button onClick={onOpenApp}>Click to open app</button>
     </Layout>
   )
 }

@@ -1,6 +1,8 @@
 import { Box } from 'mollectorgame-sdk'
 import styled from 'styled-components'
-import backgroundImage from 'assets/images/mainbackground.png'
+
+import backgroundImage from '~/assets/images/mainbackground.png'
+
 import Header from './Header'
 
 const LayoutWrapper = styled(Box)`

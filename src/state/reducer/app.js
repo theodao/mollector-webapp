@@ -10,6 +10,7 @@ export const appSlice = createSlice({
   initialState,
   reducers: {
     setOpenMarketplace: (state, action) => {
+      console.log(action.payload, 'pay load ?')
       state.isMarketplaceOpen = action.payload
     },
   },

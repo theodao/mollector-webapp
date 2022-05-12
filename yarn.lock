@@ -5917,6 +5917,11 @@ eslint-plugin-react@^7.21.5, eslint-plugin-react@^7.29.4:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.6"
 
+eslint-plugin-simple-import-sort@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-7.0.0.tgz#a1dad262f46d2184a90095a60c66fef74727f0f8"
+  integrity sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==
+
 eslint-plugin-testing-library@^3.9.2:
   version "3.10.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-3.10.2.tgz#609ec2b0369da7cf2e6d9edff5da153cc31d87bd"
@@ -9349,10 +9354,10 @@ mock-fs@^4.1.0:
   resolved "https://registry.yarnpkg.com/mock-fs/-/mock-fs-4.14.0.tgz#ce5124d2c601421255985e6e94da80a7357b1b18"
   integrity sha512-qYvlv/exQ4+svI3UOvPUpLDF0OMX5euvUH0Ny4N5QyRyhNdgAgUrVH3iUINSzEPLvx0kbo/Bp28GJKIqvE7URw==
 
-mollectorgame-sdk@^1.3.4:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/mollectorgame-sdk/-/mollectorgame-sdk-1.3.4.tgz#11eb2725b620cfe12726d627c89be9d2c4e7e2ce"
-  integrity sha512-o2kn14qyxS6UFo1D8jwA8Dw1aYqqTc5vgtJnGvoT87nWBc8gPj4cCsywG8B8Onff9o8U5u0+QJJ9WvgAmN8UVA==
+mollectorgame-sdk@^1.3.6:
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/mollectorgame-sdk/-/mollectorgame-sdk-1.3.6.tgz#d3d5d0485840d118dfc2854b4bad38d9c57a8ea8"
+  integrity sha512-hQdAmQ7CobzBW3Vush1ARUDmWB8tnY19Ph/KwpNRVn8mgBmLESYSpFp1uNwnSQAKiJk46JcOscyTt7oAq+gxfQ==
   dependencies:
     "@reduxjs/toolkit" "^1.8.1"
     "@web3-react/core" "^6.1.9"

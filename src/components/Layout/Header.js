@@ -1,6 +1,7 @@
 import { Box } from 'mollectorgame-sdk'
 import styled from 'styled-components'
-import LogoMenu from 'assets/images/menu.png'
+
+import LogoMenu from '~/assets/images/menu.png'
 
 const Logo = styled.img``
 
