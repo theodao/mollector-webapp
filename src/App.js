@@ -1,10 +1,10 @@
 import { MainApp } from 'mollectorgame-sdk'
-import { useDispatch, useSelector } from 'react-redux'
-import { Redirect, Route, Switch, withRouter } from 'react-router-dom'
+import { useSelector } from 'react-redux'
+import { Route, Switch } from 'react-router-dom'
 
 import useOpenApp from '~/hooks/useOpenApp'
 import Home from '~/pages/Home'
-import { selectOpenMarketplace, setOpenMarketplace } from '~/state/reducer/app'
+import { selectOpenMarketplace } from '~/state/reducer/app'
 
 const SwitchApp = () => {
   return (

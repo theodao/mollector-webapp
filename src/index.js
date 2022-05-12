@@ -1,6 +1,6 @@
 import React from 'react'
 import BigNumber from 'bignumber.js'
-import { Container, ResetCSS, Web3Provider } from 'mollectorgame-sdk'
+import { Container } from 'mollectorgame-sdk'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import { HashRouter } from 'react-router-dom'
@@ -18,14 +18,11 @@ BigNumber.set({
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter basename="/">
-      <Web3Provider>
-        <Provider store={store}>
-          <Container>
-            <ResetCSS />
-            <App />
-          </Container>
-        </Provider>
-      </Web3Provider>
+      <Provider store={store}>
+        <Container>
+          <App />
+        </Container>
+      </Provider>
     </HashRouter>
   </React.StrictMode>,
   document.getElementById('root'),
